@@ -1,6 +1,6 @@
-const CACHE = 'supervision-v3';
+const CACHE = 'supervision-v4';
 const FILES = ['./', './index.html', './panel.html', './manifest.webmanifest',
-  './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
+  './icon-180.png', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => {
   // Guarda cada archivo por separado: si uno falta, los demás igual se guardan
   e.waitUntil(caches.open(CACHE)
