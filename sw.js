@@ -1,4 +1,4 @@
-const CACHE = 'supervision-v2';
+const CACHE = 'supervision-v3';
 const FILES = ['./', './index.html', './panel.html', './manifest.webmanifest',
   './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', e => {
